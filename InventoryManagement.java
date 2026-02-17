@@ -27,11 +27,11 @@ public class InventoryManagement {
 	        int rows = ps.executeUpdate();
 
 	        if (rows > 0) {
-	            System.out.println("✅ Product added successfully to database");
+	            System.out.println("✅ Product added successfully to database..!!");
 	        }
 
 	    } catch (SQLException e) {
-	        System.out.println("❌ Error while adding product");
+	        System.out.println("❌ Error while adding product...!!");
 	        e.printStackTrace();
 	    }
 	}
